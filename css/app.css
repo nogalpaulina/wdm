@@ -1190,3 +1190,24 @@ span.inline-h3 {
   padding-left:5px;
   padding-right:5px;
 }
+
+/* ADDITIONAL STYLES */
+
+.group-heading,
+.group-subheading {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #346B9B;
+}
+
+.checkbox-row {
+  line-height: 1.5;
+}
+
+#reading-comments {
+  margin-top: 1em;
+}
+
+#aac-eval-reading-level {
+  margin-left: 1.3em;
+}

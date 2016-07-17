@@ -1542,8 +1542,9 @@
                                                 <hr>
                                                 <div class="row">
                                                     <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <h3>Literacy</h3></div>
+                                                      <div class="form-group">
+                                                            <h3 class="group-heading">Literacy</h3>
+																											</div>
                                                     </div>
                                                 </div>
                                                 <br>
@@ -1555,75 +1556,63 @@
                                                                     <input checked="checked" name="aac-eval-reading-no" data-property="pot-entity-form-AACEval.readingNO" class="input-checkbox" value="true" data-field-type="boolean" type="checkbox"> <b>Not observed</b> </label>
                                                                 <div class="help-block with-errors"></div>
                                                             </div>
-                                                            <h4>Reading</h4> </div>
+                                                            <h4 class="group-subheading">Reading</h4> </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-12">
                                                             <div class="panel panel-default well">
                                                                 <div class="panel-body">
-                                                                    <div class="col-sm-12 form-group form-inline">
-                                                                        <label><b>Level of functional reading skill:</b></label>
-                                                                        <select class="form-control input-sm input-select" id="aac-eval-reading-level" data-property="pot-entity-form-AACEval.readingLevel">
-                                                                            <option value="">Choose</option>
-                                                                            <option>doesn't read</option>
-                                                                            <option>recognizes letters</option>
-                                                                            <option>can read some single words</option>
-                                                                            <option>reads independently</option>
-                                                                        </select>
-                                                                    </div>
-                                                                    <br>
+																																	<div class="row form-group form-inline">
+																																		<label class="col-xs-12 col-sm-7 col-md-6 col-lg-4">Level of functional reading skill:</label>
+																																		<select class="form-control input-sm input-select " id="aac-eval-reading-level" data-property="pot-entity-form-AACEval.readingLevel">
+																																				<option value="">Choose</option>
+																																				<option>doesn't read</option>
+																																				<option>recognizes letters</option>
+																																				<option>can read some single words</option>
+																																				<option>reads independently</option>
+																																		</select>
+																																	</div>
                                                                     <div class="row checkbox-row">
-                                                                        <div class="col-sm-12">
-                                                                            <label><b>Does the client read sentences/stories for meaning?</b></label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="no" type="radio"> no </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="yes" type="radio"> yes </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
-                                                                        </div>
+																																			<label class="col-xs-12 col-sm-7 col-md-6 col-lg-4">Does the client read sentences/stories for meaning?</label>
+																																			<label class="checkbox-inline" for="reading1-no">
+																																				<input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="no" type="radio" id="reading1-no"> no </label>
+																																			<label class="checkbox-inline">
+																																				<input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="yes" type="radio"> yes </label>
+																																			<label class="checkbox-inline">
+																																				<input name="aac-eval-reading1" data-property="pot-entity-form-AACEval.reading1" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
                                                                     </div>
                                                                     <div class="row checkbox-row">
-                                                                        <div class="col-sm-12">
-                                                                            <label><b>Can the client answer questions about text read?</b></label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input checked="checked" name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="no" type="radio"> no </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="yes" type="radio"> yes </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
-                                                                        </div>
+																																			<label class="col-xs-12 col-sm-7 col-md-6 col-lg-4">Can the client answer questions about text read?</label>
+																																			<label class="checkbox-inline">
+																																			<input checked="checked" name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="no" type="radio"> no </label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="yes" type="radio"> yes </label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading2" data-property="pot-entity-form-AACEval.reading2" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
                                                                     </div>
                                                                     <div class="row checkbox-row">
-                                                                        <div class="col-sm-12">
-                                                                            <label><b>Does the client read for information/knowledge?</b></label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="no" type="radio"> no </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input checked="checked" name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="yes" type="radio"> yes </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
-                                                                        </div>
+																																			<label class="col-xs-12 col-sm-7 col-md-6 col-lg-4">Does the client read for information/knowledge?</label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="no" type="radio"> no </label>
+																																			<label class="checkbox-inline">
+																																			<input checked="checked" name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="yes" type="radio"> yes </label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading3" data-property="pot-entity-form-AACEval.reading3" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
                                                                     </div>
                                                                     <div class="row checkbox-row">
-                                                                        <div class="col-sm-12">
-                                                                            <label><b>Does the client read analytically and thoughtfully?</b></label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="no" type="radio"> no </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="yes" type="radio"> yes </label>
-                                                                            <label class="checkbox-inline">
-                                                                                <input checked="checked" name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
-                                                                        </div>
+																																			<label class="col-xs-12 col-sm-7 col-md-6 col-lg-4">Does the client read analytically and thoughtfully?</label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="no" type="radio"> no </label>
+																																			<label class="checkbox-inline">
+																																			<input name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="yes" type="radio"> yes </label>
+																																			<label class="checkbox-inline">
+																																			<input checked="checked" name="aac-eval-reading4" data-property="pot-entity-form-AACEval.reading4" class="input-checkbox-group" value="emerging" type="radio"> emerging </label>
                                                                     </div>
-                                                                    <br>
                                                                     <div class="row">
-                                                                        <div class="col-sm-8">
-                                                                            <div class="form-group">
-                                                                                <label>Additional comments regarding reading skills</label>
-                                                                                <textarea id="aac-eval-reading-comments" rows="2" class="form-control input-field input-sm" data-property="pot-entity-form-AACEval.readingComments"></textarea>
-                                                                                <div class="help-block with-errors"></div>
-                                                                            </div>
+                                                                        <div class="col-sm-12" id="reading-comments">
+																																					<label>Additional comments regarding reading skills</label>
+																																					<textarea id="aac-eval-reading-comments" rows="4" class="form-control input-field input-lg" data-property="pot-entity-form-AACEval.readingComments"></textarea>
+																																					<div class="help-block with-errors"></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
