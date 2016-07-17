@@ -1,0 +1,8 @@
+#app-sub-navbar.sub-navbar{
+  height: 45px;
+ padding-top:5px;
+}
+
+#app-sub-navbar .patient-navbar-btn{
+  margin-top:0px;
+}

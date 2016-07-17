@@ -1,0 +1,13 @@
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "../assets/css/font-awesome.css";
+@import "fullcalendar.css";
+@import "fullcalendar.print.css";
+@import "datepicker.css";
+@import "bootstrap-datetimepicker.css";
+@import "bootstrap-timepicker.min.css";
+@import "bootstrap-select.min.css";
+@import "summernote.css";
+@import "typeahead.css";
+@import "app.css";
+@import "patient_chart.css";
